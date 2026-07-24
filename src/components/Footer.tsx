@@ -33,7 +33,7 @@ export default function Footer() {
 
       <div className="relative z-10 w-full mx-auto flex flex-col min-h-[35vh] justify-between">
         
-        <div className="px-6 md:px-16 lg:px-24 flex flex-col md:flex-row gap-12 md:gap-24 mb-16 w-full">
+        <div className="px-6 md:px-16 lg:px-24 flex flex-col md:flex-row gap-12 md:gap-24 mb-16 w-full" data-gsap="fade-up">
           
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2 text-gray-500">
@@ -55,7 +55,7 @@ export default function Footer() {
           
         </div>
 
-        <div className="w-full flex justify-center items-end mt-auto px-4 md:px-8 pb-4 pointer-events-none overflow-hidden">
+        <div className="w-full flex justify-center items-end mt-auto px-4 md:px-8 pb-4 pointer-events-none overflow-hidden" data-gsap="fade-up" data-gsap-delay="0.15">
           <h1 className="text-[13.5vw] leading-[0.75] font-bold text-center w-full text-[#151515] select-none tracking-tighter">
             KUNAL GUPTA
           </h1>

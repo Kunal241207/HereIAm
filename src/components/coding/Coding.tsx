@@ -33,20 +33,14 @@ export default function Coding() {
 
       <div className="relative z-10 max-w-350 mx-auto w-full">
 
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-16 md:mb-20 flex items-center gap-6"
-        >
+        <div className="mb-16 md:mb-20 flex items-center gap-6" data-gsap="fade-up">
           <h2 className="flex">
             {"CODING".split("").map((char, i) => (
               <FlipBoard key={i} char={char} delay={0.1 + i * 0.1} isHighlight={i > 2} />
             ))}
           </h2>
           <div className="flex-1 h-px bg-linear-to-r from-[#262626] to-transparent" />
-        </motion.div>
+        </div>
 
         <div className="mb-20 md:mb-28">
           <SectionLabel text="Open Source" />

@@ -6,8 +6,10 @@ import Work from "./components/Work"
 import Skill from "./components/Skill"
 import Coding from "./components/coding/Coding"
 import Footer from "./components/Footer"
+import { useLenis } from "./hooks/useLenis"
 
 function App() {
+  useLenis()
   return (
     <div>
       <LoadingScreen/>

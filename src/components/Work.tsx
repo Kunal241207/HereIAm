@@ -52,7 +52,7 @@ export default function Work() {
     <section id="work" className="relative min-h-screen bg-[#0f0f0f] flex flex-col pt-24 pb-24 md:pt-32 md:pb-32 px-6 md:px-16 lg:px-24 overflow-hidden">
       <div className="w-full max-w-[1600px] mx-auto">
 
-        <div className="flex items-center justify-between mb-12 md:mb-16">
+        <div className="flex items-center justify-between mb-12 md:mb-16" data-gsap="fade-up">
           <h2 className="flex">
             {"MY WORKS".split("").map((char, i) => (
               <FlipBoard key={i} char={char} delay={0.1 + i * 0.1} isHighlight={i < 2} />
@@ -74,7 +74,7 @@ export default function Work() {
           </div>
         </div>
 
-        <div className="flex items-end gap-4 md:gap-6">
+        <div className="flex items-end gap-4 md:gap-6" data-gsap="fade-up" data-gsap-delay="0.1">
 
           <motion.div className="flex-1" animate={{ opacity: 0.35 }} onClick={prev}>
             <AnimatePresence mode="wait">

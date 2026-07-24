@@ -63,7 +63,7 @@ export default function Skill() {
   return (
     <section id="skills" className="relative min-h-screen bg-[#0f0f0f] py-32 overflow-hidden px-6 md:px-16 lg:px-24">
 
-      <div className="relative z-10 max-w-350 mx-auto">
+      <div className="relative z-10 max-w-350 mx-auto" data-gsap="fade-up">
         <div className="flex items-center gap-6 mb-24">
           <h2 className="flex">
             {"SKILL .EXE".split("").map((char, i) => (
@@ -74,7 +74,7 @@ export default function Skill() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-12">
+      <div className="flex flex-col items-center gap-12" data-gsap="fade-up" data-gsap-delay="0.1">
         <TopMarquee />
 
         <div className="relative w-full max-w-300 mx-auto px-6">
