@@ -14,7 +14,7 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-[#0f0f0f] pt-16 overflow-visible border-t border-white/5">
-      <div className="absolute -top-16 left-0 w-full h-24 pointer-events-none z-50 overflow-visible">
+      <div className="absolute -top-18 left-0 w-full h-24 pointer-events-none z-50 overflow-visible">
         <div className="absolute animate-fly flex items-center opacity-80">
           <div className="w-48 md:w-96 h-[1.5px] bg-linear-to-r from-transparent via-white/20 to-white/50 mr-1" />
           <Plane size={48} strokeWidth={1.5} className="text-white transform rotate-45" fill="currentColor" />

@@ -3,6 +3,7 @@ import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react"
 import { FaGithub } from "react-icons/fa"
 import { FlipBoard } from "./ui/FlipBoard"
 import { motion, AnimatePresence } from "motion/react"
+import hiresprintImg from "../assets/projects/hiresprint.webp"
 import melodiqImg from "../assets/projects/melodiq.webp";
 import oishiiImg from "../assets/projects/oishii.webp";
 import photoTuneImg from "../assets/projects/phototune.webp";
@@ -10,18 +11,18 @@ import guessImg from "../assets/projects/guessmyno.webp";
 
 const projects = [
   {
+    title: "HIRESPRINT",
+    description: "An AI-powered platform that helps job seekers optimise their applications through resume analysis, skill gap identification, tailored ATS resume generation, and personalised interview preparation plan.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "SCSS", "Gemini AI"],
+    link: "https://hire-sprint-nine.vercel.app/", github: "https://github.com/Kunal241207/HireSprint", color: "#00D2FF",
+    image: hiresprintImg,
+  },
+  {
     title: "MELODIQ",
     description: "A modern music explorer powered by iTunes API, featuring fast search, smart filtering, curated collections, and a responsive listening experience.",
     tech: ["JavaScript", "iTunes API"],
     link: "https://kunal241207.github.io/Melodiq/", github: "https://github.com/Kunal241207/Melodiq", color: "#B7FF2A",
     image: melodiqImg,
-  },
-  {
-    title: "OISHII",
-    description: "A Japanese-inspired restaurant landing page featuring elegant animations, bold typography, and a premium visual experience.",
-    tech: ["React", "GSAP"],
-    link: "https://oishii-green.vercel.app/", github: "https://github.com/Kunal241207/Oishii", color: "#FF5F56",
-    image: oishiiImg,
   },
   {
     title: "GUESS MY NUMBER",
@@ -36,6 +37,13 @@ const projects = [
     tech: ["JavaScript"],
     link: "https://kunal241207.github.io/PhotoTune/", github: "https://github.com/Kunal241207/PhotoTune", color: "#FFBD2E",
     image: photoTuneImg,
+  },
+  {
+    title: "OISHII",
+    description: "A Japanese-inspired restaurant landing page featuring elegant animations, bold typography, and a premium visual experience.",
+    tech: ["React", "GSAP"],
+    link: "https://oishii-green.vercel.app/", github: "https://github.com/Kunal241207/Oishii", color: "#FF5F56",
+    image: oishiiImg,
   },
 ]
 

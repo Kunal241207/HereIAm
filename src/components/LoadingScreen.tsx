@@ -17,7 +17,7 @@ const bootLogs = [
 ]
 
 function calcProgress(elapsed: number): number {
-  const t = Math.min(elapsed / 3600, 1)
+  const t = Math.min(elapsed / 2600, 1)
   if (t < 0.55) {
     const n = t / 0.55
     return n * (2 - n) * 70

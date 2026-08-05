@@ -10,13 +10,15 @@ const links = [
   { id: "coding",  num: "05.", label: "CODING" },
 ]
 
+const reversedLinks = [...links].reverse()
+
 export default function Navbar() {
   const [active, setActive] = useState("home")
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => {
-      for (const { id } of [...links].reverse()) {
+      for (const { id } of reversedLinks) {
         const el = document.getElementById(id)
         if (el && el.getBoundingClientRect().top <= window.innerHeight * 0.4) {
           setActive(id)

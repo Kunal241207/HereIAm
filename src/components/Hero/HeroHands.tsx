@@ -106,7 +106,7 @@ export default function HeroHands() {
         <motion.div
           initial={{ x: "-100%", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.5, ease: [0.76, 0, 0.24, 1], delay: 4.5 }}
+          transition={{ duration: 1.5, ease: [0.76, 0, 0.24, 1], delay: 3.5 }}
         >
           <motion.div animate={floatLeft} transition={floatTransition}>
             <Hand art={LEFT_HAND_ART} className="" />
@@ -118,7 +118,7 @@ export default function HeroHands() {
         <motion.div
           initial={{ x: "100%", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.5, ease: [0.76, 0, 0.24, 1], delay: 4.5 }}
+          transition={{ duration: 1.5, ease: [0.76, 0, 0.24, 1], delay: 3.5 }}
         >
           <motion.div animate={floatRight} transition={floatTransition}>
             <Hand art={RIGHT_HAND_ART} className="" />

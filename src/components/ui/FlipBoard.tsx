@@ -13,14 +13,16 @@ export const FlipBoard = ({ char, delay, isHighlight }: { char: string, delay: n
 
     let flips = 0
     const max = 10 + Math.random() * 8
+    let interval: ReturnType<typeof setInterval>
+
     const timeout = setTimeout(() => {
-      const interval = setInterval(() => {
+      interval = setInterval(() => {
         if (++flips >= max) { clearInterval(interval); setDisplayed(char) }
         else setDisplayed(Characters[Math.floor(Math.random() * Characters.length)])
       }, 60)
     }, delay * 1000)
 
-    return () => clearTimeout(timeout)
+    return () => { clearTimeout(timeout); clearInterval(interval) }
   }, [inView, char, delay])
 
   if (char === " ") return <div className="w-3 md:w-6"/>

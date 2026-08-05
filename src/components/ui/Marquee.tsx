@@ -25,6 +25,7 @@ function MarqueeRow({ icons, reverse }: { icons: IconType[], reverse?: boolean }
     let lastTime = performance.now()
 
     const animate = (now: number) => {
+      if (document.hidden) { rafId = requestAnimationFrame(animate); return }
       const dt = Math.min(now - lastTime, 50)
       lastTime = now
 
@@ -52,13 +53,16 @@ function MarqueeRow({ icons, reverse }: { icons: IconType[], reverse?: boolean }
       <div
         ref={rowRef}
         className="flex w-max"
-        onMouseEnter={() => { wantSpeed.current = 0 }}
-        onMouseLeave={() => { wantSpeed.current = 1.2 }}
       >
         {Array.from({ length: 4 }).map((_, i) => (
           <div key={i} className="flex shrink-0 px-4 items-center">
             {icons.map((Icon, j) => (
-              <div key={j} className="mx-8 shrink-0 cursor-pointer group flex items-center justify-center">
+              <div
+                key={j}
+                className="mx-8 shrink-0 cursor-pointer group flex items-center justify-center"
+                onMouseEnter={() => { wantSpeed.current = 0 }}
+                onMouseLeave={() => { wantSpeed.current = 1.2 }}
+              >
                 <Icon size={56} className="text-[#444] transition-colors duration-500 group-hover:text-[#B7FF2A]" />
               </div>
             ))}
