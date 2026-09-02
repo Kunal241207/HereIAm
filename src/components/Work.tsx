@@ -8,8 +8,18 @@ import melodiqImg from "../assets/projects/melodiq.webp";
 import oishiiImg from "../assets/projects/oishii.webp";
 import photoTuneImg from "../assets/projects/phototune.webp";
 import guessImg from "../assets/projects/guessmyno.webp";
+import archioImg from "../assets/projects/archioImg.webp";
 
 const projects = [
+  {
+    title: "ARCHIO",
+    description: "An AI-first architectural design environment for uploading floor plans, visualising projects, managing designs, and transforming architectural concepts into interactive digital experiences.",
+    tech: ["TypeScript", "React Router", "TailwindCSS", "Puter.js"],
+    link: "https://puter.com/app/archio",
+    github: "https://github.com/Kunal241207/Archio",
+    color: "#7C5CFC",
+    image: archioImg,
+  },
   {
     title: "HIRESPRINT",
     description: "An AI-powered platform that helps job seekers optimise their applications through resume analysis, skill gap identification, tailored ATS resume generation, and personalised interview preparation plan.",

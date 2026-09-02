@@ -8,7 +8,7 @@ const categories = [
   {
     icon: Layout,
     title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3"],
+    skills: ["React", "JavaScript", "Tailwind CSS", "HTML5", "CSS3"],
     tilt: "md:-rotate-[10deg] md:-translate-y-6",
   },
   {
@@ -20,7 +20,7 @@ const categories = [
   {
     icon: Database,
     title: "Database",
-    skills: ["MySQL", "MongoDB", "Redis"],
+    skills: ["PostgreSQL", "MongoDB", "Redis"],
     tilt: "md:rotate-[3deg] md:-translate-y-10",
   },
   {

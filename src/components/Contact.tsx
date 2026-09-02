@@ -12,7 +12,7 @@ interface ContactProps {
 
 const socials = [
   { id: 'email', icon: Mail, title: 'EMAIL', value: '2007guptakunal@gmail.com', href: 'mailto:2007guptakunal@gmail.com' },
-  { id: 'linkedin', icon: FaLinkedin, title: 'LINKEDIN', value: 'KUNAL GUPTA', href: 'https://www.linkedin.com/in/kunal-gupta-2285b4378/' },
+  { id: 'linkedin', icon: FaLinkedin, title: 'LINKEDIN', value: 'Kunal Gupta', href: 'https://www.linkedin.com/in/kunal-gupta-2285b4378/' },
   { id: 'github', icon: FaGithub, title: 'GITHUB', value: 'Kunal241207', href: 'https://github.com/Kunal241207' }
 ]
 

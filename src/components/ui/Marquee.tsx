@@ -3,7 +3,7 @@ import type { IconType } from "react-icons"
 import {
   SiHtml5, SiCss, SiJavascript, SiTypescript, SiReact, SiMongodb, SiExpress,
   SiNodedotjs, SiTailwindcss, SiSass, SiPython, SiCplusplus, SiGo, SiSupabase,
-  SiGit, SiFramer, SiFigma, SiDocker, SiVercel, SiVite, SiMysql,
+  SiGit, SiFramer, SiFigma, SiDocker, SiVercel, SiVite, SiPostgresql,
 } from "react-icons/si"
 
 const topIcons: IconType[] = [
@@ -11,7 +11,7 @@ const topIcons: IconType[] = [
 ]
 
 const bottomIcons: IconType[] = [
-  SiPython, SiCplusplus, SiGo, SiSupabase, SiGit, SiFramer, SiFigma, SiDocker, SiVercel, SiVite, SiMysql,
+  SiPython, SiCplusplus, SiGo, SiSupabase, SiGit, SiFramer, SiFigma, SiDocker, SiVercel, SiVite, SiPostgresql,
 ]
 
 function MarqueeRow({ icons, reverse }: { icons: IconType[], reverse?: boolean }) {

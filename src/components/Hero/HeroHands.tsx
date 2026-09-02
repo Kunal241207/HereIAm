@@ -126,7 +126,7 @@ export default function HeroHands() {
         </motion.div>
       </motion.div>
 
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_45%,#0f0f0f_100%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#0f0f0f_100%)]" />
 
     </div>
   )

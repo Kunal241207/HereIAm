@@ -10,11 +10,11 @@ export const ossContributions = [
     ],
   },
   {
-    repo: "OWASP BLT",
-    desc: "Implemented security features and improved the user experience for the bug logging tool.",
+    repo: "OWASP",
+    desc: "Improved security tooling, strengthened documentation, and enhanced validation across OWASP projects.",
     prs: [
-      { title: "Fix route shadowing by sorting routes by specificity", url: "https://github.com/OWASP-BLT/BLT-API/pull/16" },
-      { title: "Fix repository page XSS via AI summary and HTML sanitization", url: "https://github.com/OWASP-BLT/BLT/pull/5701" },
+      { title: "Harden OSV response handling to prevent false-negative scans", url: "https://github.com/OWASP/cve-lite-cli/pull/985" },
+      { title: "Optimize CI validation and fix data-quality checks", url: "https://github.com/OWASP/www-community/pull/1312" },
     ],
   },
   {
@@ -31,6 +31,14 @@ export const ossContributions = [
     prs: [
       { title: "Correct ndt7 upload throughput parsing and add coverage", url: "https://github.com/m-lab/murakami/pull/123" },
       { title: "Fix README links and WebThings typo", url: "https://github.com/m-lab/murakami/pull/122" },
+    ],
+  },
+  {
+    repo: "freeCodeCamp",
+    desc: "Improved the learning curriculum through clearer explanations, accurate examples, and more accessible lesson markup.",
+    prs: [
+      { title: "Improve Flexbox curriculum content and examples", url: "https://github.com/freeCodeCamp/freeCodeCamp/pull/69265" },
+      { title: "Add semantic keyboard markup to database lessons", url: "https://github.com/freeCodeCamp/freeCodeCamp/pull/69730" },
     ],
   },
 ]
