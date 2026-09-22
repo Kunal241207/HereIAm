@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
         </div>
 
-        <p className="mb-8 text-[#F4F1E8] md:text-[22px] tiny italic">
+        <p className="mb-8 text-[#F4F1E8] md:text-[20px] tiny italic">
           AI × FULL-STACK × SYSTEMS
         </p>
 

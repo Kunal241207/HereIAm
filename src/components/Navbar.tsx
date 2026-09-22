@@ -7,7 +7,7 @@ const links = [
   { id: "about",   num: "02.", label: "ABOUT" },
   { id: "skills",  num: "03.", label: "SKILLS" },
   { id: "work",    num: "04.", label: "WORK" },
-  { id: "coding",  num: "05.", label: "CODING" },
+  // { id: "coding",  num: "05.", label: "CODING" },
 ]
 
 const reversedLinks = [...links].reverse()

@@ -66,7 +66,7 @@ export const cpProfiles = [
     platform: "CodeChef",
     stat: "3 ★",
     statLabel: "Star Rating",
-    url: "https://www.codechef.com/users/cry_braid_06",
+    url: "https://www.codechef.com/users/fave_salt_95",
     icon: SiCodechef,
     tilt: "-rotate-3 md:-translate-y-2",
     color: "#B7FF2A",

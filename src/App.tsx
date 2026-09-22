@@ -4,7 +4,7 @@ import LoadingScreen from "./components/LoadingScreen"
 import Navbar from "./components/Navbar"
 import Work from "./components/Work"
 import Skill from "./components/Skill"
-import Coding from "./components/coding/Coding"
+// import Coding from "./components/coding/Coding"
 import Footer from "./components/Footer"
 import { useLenis } from "./hooks/useLenis"
 
@@ -18,7 +18,7 @@ function App() {
       <About/>
       <Skill/>
       <Work/>
-      <Coding/>
+      {/* <Coding/> */}
       <Footer/>
     </div>
   )
