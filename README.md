@@ -27,4 +27,4 @@ npm run build
 
 ---
 
-⭐⭐ **Star this repository if you like my work! (🫵🔫 Not forced)**
+⭐⭐ **Star this repository if you like my work!**
